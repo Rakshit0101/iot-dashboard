@@ -1,0 +1,7 @@
+{
+"device_status":"online",
+"current_temperature":15.0,
+"min_temperature" : 10.0,
+"warning_temperature" : 90.0,
+"max_temperature": 100.0
+}
