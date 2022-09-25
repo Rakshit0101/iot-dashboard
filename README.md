@@ -1,3 +1,9 @@
+# Assignments
+### Assignment 1: [Dashboard Replicate-Assignment1](https://github.com/Rakshit0101/iot-dashboard#dashboard-replicate-assignment1)
+### Assignment 2: [Temperature Monitoring-assignment2](https://github.com/Rakshit0101/iot-dashboard#temperature-monitoring-assignment2)
+..
+  ---
+  
 # Dashboard Replicate-Assignment1
 
 **This project has a dashboard replicate of a device installed at a single site .**
@@ -13,7 +19,7 @@
 
 ---
 ### User-Manual
-* User has to open the **readings.json** file and has to pass the following data -
+* User has to open the **WEB-INF\readings.json** file and has to pass the following data -
 	* device_status -- *Whether IOT device is turned ON or OFF*
 	* current_temperature -- *The current temperature of device ,by which program will judge its status*
 	* min_temperature -- *Minimum Threshold temperature of the device*
@@ -53,4 +59,17 @@
 * **JSON for data interchange**
 * **Server Tomcat**
 
+---
+# Temperature Monitoring-assignment2
+Created database name: `device18`
+3 tables:
+1. `d1` contains 100 temperature readings
+2. `d2` contains average temperature of successive 5 readings
+3. `d3` containes data out of min threshold (10 degree C) and max threshold (70 degree C)
+
+Please import the [sql file](https://github.com/Rakshit0101/iot-dashboard/blob/main/Assignment%202/sqlsetup.sql) to setup the database in MySQL.
+
+Run the mainclass: `com.database.assignment2.Main.java`
+
 <p style="text-align: center;">Submitted by Rakshit Jayaswal</p>
+ 
